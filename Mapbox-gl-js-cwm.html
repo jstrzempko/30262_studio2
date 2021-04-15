@@ -39,9 +39,9 @@
     <!-- Container for the map -->
     <div id="mapID"></div>
 
-
     <script>
         // Mapbox GL JS requires a token
+        mapboxgl.accessToken = 'pk.eyJ1IjoianN0cnplbXBrbyIsImEiOiJja2xoN3FnaHMwMHVnMnVtZ3R4ZGhyMWlkIn0.A-mfTeGCl1XSWMWhimG5HA';
 
         /* Initialize the map with:
          *  container
@@ -49,6 +49,12 @@
          *  center
          *  zoom
          */
+        var map = new mapboxgl.Map({
+          container: 'mapId',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [-122.420790, 37.754700],
+          zoom: 14
+        });
     </script>
 
 </body>
