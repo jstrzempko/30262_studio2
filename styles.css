@@ -66,5 +66,5 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: bold;
+    text-decoration: underline;
 }
