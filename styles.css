@@ -13,6 +13,12 @@ h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Sans-Serif';
 }
+p {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 1.4em;
+    color: #F5F5F5;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -52,3 +58,11 @@ li a:hover {
 .active {
  background-color: #a09f9f;
 }
+
+/*change hyperlinks*/
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
