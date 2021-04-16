@@ -24,6 +24,7 @@ nav ul, footer ul {
     list-style: none;
 }
 ul {
+ font-family:'Helvetica', 'Arial', 'Sans-Serif';
  list-style-type: none;
  margin: 1px;
  padding: 1px;
