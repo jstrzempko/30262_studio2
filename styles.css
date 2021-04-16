@@ -9,7 +9,7 @@ h1 {
     font-family:'Helvetica', 'Sans-Serif';
 }
 h2 {
-    color: #F5F5F5;
+    color:  #c8c8c8;
     font-size: 2em;
     font-family:'Helvetica', 'Sans-Serif';
 }
@@ -50,7 +50,7 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f; 
+ background-color: #a09f9f;
 }
 
 .active {
