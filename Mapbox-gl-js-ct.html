@@ -58,8 +58,7 @@
      * "<b>The Presidio.</b><br /> Explore to find a drinking fountain!"
      */
      var popup = new mapboxgl.Popup({ closeOnClick: false })
-      .setHTML('<b>The Presidio.</b><br /> Explore to find a drinking fountain!')
-      .addTo(map);
+      .setHTML('<b>The Presidio.</b><br /> Explore to find a drinking fountain!');
 
     /* Create a variable called "marker,"
      * add to it a new Marker (ref: https://docs.mapbox.com/mapbox-gl-js/api/#marker),
@@ -67,7 +66,10 @@
      * set its popup to the popup variable you created earlier,
      * and add it to the map.
      */
-
+     var marker = new mapboxgl.Marker()
+      .setLngLat([-122.4700, 37.8011])
+      .setPop(popup)
+      .addTo(map);
 
   </script>
 </body>
