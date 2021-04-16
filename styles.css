@@ -19,10 +19,7 @@ p {
     line-height: 1.4em;
     color: #F5F5F5;
 }
-nav ul, footer ul {
-    padding: 0px;
-    list-style: none;
-}
+
 ul {
  font-family:'Helvetica', 'Arial', 'Sans-Serif';
  list-style-type: none;
@@ -53,7 +50,7 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f;
+ background-color: #a09f9f; 
 }
 
 .active {
