@@ -32,7 +32,7 @@ ul {
 li {
  font-family:'Helvetica', 'Arial', 'Sans-Serif'
  float: left;
- border-right: 2px solid #383838;
+ border-right: 2px #383838;
 }
 
 /* Add a border to all( but not the last) list items */
@@ -41,9 +41,8 @@ li:last-child {
 }
 
 li a {
- display: block;
+ display: inline-block;
  color: #F5F5F5;
- text-align: left;
  padding: 15px 17px;
  text-decoration: none;
 }
