@@ -13,6 +13,11 @@ h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Sans-Serif';
 }
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+}
 ul {
  list-style-type: none;
  margin: 1px;
