@@ -3,6 +3,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+h1 {
+    color: #F5F5F5;
+    font-size: 3em;
+    font-family:'Helvetica', 'Sans-Serif';
+}
 ul {
  list-style-type: none;
  margin: 1px;
