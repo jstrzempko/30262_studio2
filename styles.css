@@ -8,6 +8,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Sans-Serif';
 }
+h2 {
+    color: #F5F5F5;
+    font-size: 3em;
+    font-family:'Helvetica', 'Sans-Serif';
+}
 ul {
  list-style-type: none;
  margin: 1px;
