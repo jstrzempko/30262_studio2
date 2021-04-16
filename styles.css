@@ -34,7 +34,7 @@ ul {
 
 li {
  float: left;
- border-right: 2px solid white;
+ border-right: 2px solid #383838;
 }
 
 /* Add a border to all( but not the last) list items */
